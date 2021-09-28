@@ -3,7 +3,7 @@ package PostManager;
 import domain.Post;
 
 public class PostManager {
-    private Post[] search(int owner_id, String domain, int query, boolean owners_only, int count, int offset, boolean extended, int fields) {
+    private Post[] search(int ownerId, String domain, int query, boolean ownersOnly, int count, int offset, boolean extended, int fields) {
         return null;
     }
 
