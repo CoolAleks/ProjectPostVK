@@ -44,7 +44,7 @@ public class CommentsInfo {
         return canOpen;
     }
 
-    public void setCanOpen(boolean  canOpen) {
+    public void setCanOpen(boolean canOpen) {
         this.canOpen = canOpen;
     }
 }

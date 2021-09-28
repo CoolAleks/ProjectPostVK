@@ -19,6 +19,13 @@ public class Post {
     private int markedAsAds;
     private boolean isFavorite;
     private int postponedId;
+    private CommentsInfo commentsInfo;
+    private Copyright copyright;
+    private Donut donut;
+    private Geo geo;
+    private LikesInfo likesInfo;
+    private Repost repost;
+    private Views views;
 
 
     public int getId() {
@@ -105,10 +112,11 @@ public class Post {
     }
 
 
-    public int getCanPin(){
+    public int getCanPin() {
         return canPin;
     }
-    public void setCanPin(int canPin){
+
+    public void setCanPin(int canPin) {
         this.canPin = canPin;
     }
 
@@ -147,15 +155,73 @@ public class Post {
     public boolean isisFavorite() {
         return isFavorite;
     }
-    public void setisFavorite(boolean isFavorite){
+
+    public void setisFavorite(boolean isFavorite) {
         this.isFavorite = isFavorite;
     }
 
-    public int getPostponedId(){
+    public int getPostponedId() {
         return postponedId;
     }
-    public void setPostponedId(int postponedId){
+
+    public void setPostponedId(int postponedId) {
         this.postponedId = postponedId;
+    }
+
+    public CommentsInfo getcommentsInfo() {
+        return commentsInfo;
+    }
+
+    public void setCommentsInfo(CommentsInfo commentsInfo) {
+        this.commentsInfo = commentsInfo;
+    }
+
+    public Copyright getCopyright() {
+        return copyright;
+    }
+
+    public void setCopyright(Copyright copyright) {
+        this.copyright = copyright;
+    }
+
+    public Donut getdonut() {
+        return donut;
+    }
+
+    public void setDonut(Donut donut) {
+        this.donut = donut;
+    }
+
+    public Geo getgeo() {
+        return geo;
+    }
+
+    public void setGeo(Geo geo) {
+        this.geo = geo;
+    }
+
+    public LikesInfo getlikesInfo() {
+        return likesInfo;
+    }
+
+    public void setLikesInfo(LikesInfo likesInfo) {
+        this.likesInfo = likesInfo;
+    }
+
+    public Repost getrepost() {
+        return repost;
+    }
+
+    public void setRepost(Repost repost) {
+        this.repost = repost;
+    }
+
+    public Views getViews() {
+        return views;
+    }
+
+    public void setViews(Views views) {
+        this.views = views;
     }
 }
 

@@ -9,31 +9,35 @@ public class Donut {
     public boolean getisDonut() {
         return isDonut;
     }
+
     public void setDonut(boolean donut) {
         this.isDonut = donut;
     }
 
 
-    public int getPaidDuration(){
+    public int getPaidDuration() {
         return paidDuration;
     }
-    public void setPaidDuration(int paidDuration){
+
+    public void setPaidDuration(int paidDuration) {
         this.paidDuration = paidDuration;
     }
 
 
-    public boolean isCanPublishFreeCopy(){
+    public boolean isCanPublishFreeCopy() {
         return canPublishFreeCopy;
     }
-    public void setCanPublishFreeCopy(boolean canPublishFreeCopy){
+
+    public void setCanPublishFreeCopy(boolean canPublishFreeCopy) {
         this.canPublishFreeCopy = canPublishFreeCopy;
     }
 
 
-    public String getEditMode(){
+    public String getEditMode() {
         return editMode;
     }
-    public void setEditMode(String editMode){
+
+    public void setEditMode(String editMode) {
         this.editMode = editMode;
     }
 }
