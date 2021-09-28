@@ -9,6 +9,6 @@ public class PostManager {
 
 
     public void delete(int owner_id, int post_id) {
-    return;
+        return;
     }
 }
